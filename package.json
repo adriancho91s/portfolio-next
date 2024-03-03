@@ -23,11 +23,13 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "commit": "commit"
   },
   "dependencies": {
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
+    "@commitlint/prompt-cli": "^19.0.3",
     "@commitlint/types": "^19.0.3",
     "@reduxjs/toolkit": "^2.2.1",
     "@semantic-release/changelog": "^6.0.3",
