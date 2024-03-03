@@ -21,8 +21,15 @@ jobs:
       - name: Install dependencies
         run: bun install
       - name: Verify if runs
-        run: bun run dev
+        run: |
+          if bun run dev; then
+            echo "Project runs successfully"
+          else
+            echo "Project failed to run"
+            exit 1
+          fi
       - name: Release
+        if: ${{ success() }}
         env:
           GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: npx semantic-release
