@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import {Toaster, toast} from "react-hot-toast";
 import { Provider } from "react-redux";
-import { store } from "@/store/index.ts";
+import { store } from "@/store";
 
 const Providers = ({ children }) => {
   useEffect(() => {
