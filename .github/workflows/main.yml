@@ -32,4 +32,4 @@ jobs:
         if: ${{ success() }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release --branches main
+        run: ./node_modules/.bin/semantic-release --branches main
