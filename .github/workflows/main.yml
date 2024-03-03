@@ -22,7 +22,7 @@ jobs:
         run: bun install
       - name: Verify if runs
         run: |
-          if bun run dev; then
+          if bun run build; then
             echo "Project runs successfully"
           else
             echo "Project failed to run"
