@@ -31,5 +31,5 @@ jobs:
       - name: Release
         if: ${{ success() }}
         env:
-          GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release --branches main
