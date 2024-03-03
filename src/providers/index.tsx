@@ -1,10 +1,12 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, ReactNode } from "react";
 import {Toaster, toast} from "react-hot-toast";
 import { Provider } from "react-redux";
 import { store } from "@/store";
 
-const Providers = ({ children }) => {
+const Providers = ({ children }: {
+  children: ReactNode;
+}) => {
   useEffect(() => {
     toast("I'm still working on my portfolio!", {
       id: "main-notification",
