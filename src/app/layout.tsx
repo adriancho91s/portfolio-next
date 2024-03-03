@@ -26,22 +26,6 @@ export const metadata: Metadata = {
   },
 };
 
-/*
-* <meta name="keyword" content="Adrián, Sitio web de Adrián, adrian, Adrián Gaitán, Adrián FullStack Developer, Portafolio de Adrian, adrian gaitan, desarrollador full stack, Adrián Gaitán Engineer">
-* */
-export async function generateMetadata({ params }) {
-  return {
-    title: 'Adrián Gaitán',
-    description: 'Adrián Fernando Gaitán Londoño personal portfolio, Adrián is a Full Stack developer in React and Node.js, he is also a software engineer and a computer science student. He is passionate about technology and software development. He is a self-taught person and he is always learning new things. He is a person who loves to work in a team and he is always looking for new challenges. He is a person who loves to work in a team and he is always looking for new challenges. He is a person who loves to work in a team and he is always looking for new challenges. He is a person who loves to work in a team and he is always looking for new challenges. He is a person who loves to work in a team and he is always looking for new challenges. He is a person who loves to work in a team and he is always looking for new challenges.',
-    openGraph: {
-      type: 'website',
-      locale: 'en',
-      url: 'https://www.adriangaitan.engineer/',
-      site_name: 'Adrián Gaitán',
-    },
-    }
-}
-
 
 export default function RootLayout({
                                      children,
