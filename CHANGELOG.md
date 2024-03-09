@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/adriancho91s/portfolio-next/compare/v1.1.0...v1.2.0) (2024-03-09)
+
+
+### Features
+
+* **i18n:** internationalization support was added to serve en and es in the site ([320f130](https://github.com/adriancho91s/portfolio-next/commit/320f1305f4afeb16402df6e111dbb2f39e95edb2))
+* **i18n:** internationalization support was added to serve en and es in the site ([2b61ae7](https://github.com/adriancho91s/portfolio-next/commit/2b61ae733b8eeb40f5fe7f648dc0a9165229c4e2))
+
 # [1.1.0](https://github.com/adriancho91s/portfolio-next/compare/v1.0.0...v1.1.0) (2024-03-03)
 
 
