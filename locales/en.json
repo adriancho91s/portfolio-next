@@ -1,0 +1,9 @@
+{
+  "home": {
+    "heroTitle": "Hi!, I’m Adrián Gaitán.\nA Full Stack developer",
+    "heroSubtitle": "I'm a Full Stack developer with a passion for creating beautiful and functional web applications. I'm currently working at <a href='https://inmuebli-fe-ssr-service.vercel.app/' target='_blank'>Inmuebli</a> as a Full Stack developer."
+  },
+  "toast": {
+    "welcome": "I'm still working on my portfolio!"
+  }
+}
