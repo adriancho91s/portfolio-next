@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { store } from "@/store";
 import {useTranslations} from "next-intl";
 
-const Providers = ({ children }: {
+const Providers = ({children}: {
   children: ReactNode;
 }) => {
   const t = useTranslations("toast");
@@ -20,7 +20,7 @@ const Providers = ({ children }: {
       },
       duration: 4200,
     });
-  }, []);
+  }, [t]);
 
   return (
     <Provider store={store}>
