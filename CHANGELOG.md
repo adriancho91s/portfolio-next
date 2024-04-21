@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/adriancho91s/portfolio-next/compare/v1.2.0...v1.3.0) (2024-04-21)
+
+
+### Features
+
+* **shorted:** link workshop ([25516dd](https://github.com/adriancho91s/portfolio-next/commit/25516ddd6225c6b4ceecedb68ed37b4643742e25))
+
 # [1.2.0](https://github.com/adriancho91s/portfolio-next/compare/v1.1.0...v1.2.0) (2024-03-09)
 
 
