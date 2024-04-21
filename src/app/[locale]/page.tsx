@@ -25,7 +25,7 @@ export default function Home({params: {locale},}:
             <Image
               src="/main.png"
               alt="Profile photo"
-              className="rounded-full dark:invert"
+              className="rounded-full"
               width={60}
               height={24}
               priority
@@ -34,10 +34,13 @@ export default function Home({params: {locale},}:
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <h1 className="text-6xl font-bold leading-tight text-center dark:text-neutral-100 text-balance max-w-2xl">
+      <div className="relative flex flex-col place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[380px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+        <h1 className="text-6xl font-bold leading-tight text-center dark:text-neutral-100 text-balance max-w-xl">
           {t("heroTitle")}
         </h1>
+        <p className="text-xl">
+          {t("heroSubtitle")}
+        </p>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
